@@ -14,12 +14,12 @@
 body {
   font-family: "Quicksand", Arial, sans-serif;
   font-weight: 400;
-  font-size: 15px;
+  font-size: 20px;
   line-height: 1.8;
   color: rgba(0, 0, 0, 0.7); }
   @media screen and (max-width: 992px) {
     body {
-      font-size: 16px; } }
+      font-size: 20px; } }
 
 a {
   color: #FFC300;
@@ -88,8 +88,8 @@ figure {
 #prevail-aside {
   padding-top: 3em;
   padding-bottom: 40px;
-  padding-left: 3em;
-  padding-right: 3em;
+  padding-left: 2em;
+  padding-right: 2em;
   width: 20%;
   position: fixed;
   bottom: 0;
@@ -114,9 +114,10 @@ figure {
       transform: translateX(-270px);
       padding-top: 4em; } }
   #prevail-aside #prevail-logo {
-    text-align: right;
+    text-align: center;
     font-weight: 700;
-    font-size: 22px;
+    font-size: 50px;
+    text-align: center;
     text-transform: uppercase;
     margin-bottom: 3em;
     display: block;
@@ -129,7 +130,7 @@ figure {
       text-align: center;
       color: #fff;
       letter-spacing: 2px;
-      padding-right: .3em; }
+      padding-right: .1em; }
   #prevail-aside #prevail-main-menu ul {
     text-align: center;
     margin: 0;
@@ -141,7 +142,7 @@ figure {
       margin: 0 0 10px 0;
       padding: 0;
       list-style: none;
-      font-size: 12px;
+      font-size: 20px;
       font-weight: 500;
       text-transform: uppercase;
       letter-spacing: 1px; }
@@ -261,7 +262,7 @@ figure {
     #prevail-hero .flexslider .flex-control-nav {
       bottom: 20px;
       z-index: 1000;
-      left: 20px;
+      left: 10px;
       float: left;
       width: auto; }
       @media screen and (max-width: 768px) {
@@ -394,8 +395,8 @@ body.offcanvas {
 .prevail-about,
 .prevail-services,
 .prevail-contact {
-  padding-top: 4em;
-  padding-bottom: 9em;
+  padding-top: 1em;
+  padding-bottom: em;
   clear: both;
   width: 100%;
   display: block; }
@@ -418,7 +419,7 @@ body.offcanvas {
 
 .prevail-heading {
   font-size: 18px;
-  margin-bottom: 4em;
+  margin-bottom: 2em;
   font-weight: 500;
   text-transform: uppercase;
   letter-spacing: 5px;
@@ -578,7 +579,7 @@ body.offcanvas {
       font-weight: 500;
       margin-bottom: 20px;
       color: rgba(0, 0, 0, 0.7);
-      font-size: 14px;
+      font-size: 15px;
       letter-spacing: 3px;
       line-height: 1.5;
       margin-bottom: 0;
